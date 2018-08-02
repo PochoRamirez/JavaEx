@@ -2,8 +2,10 @@ package com.example.javaex.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class Article {
+public class Item implements Serializable {
 
     private Long id;
     private String title;
